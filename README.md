@@ -1,5 +1,6 @@
 # Healthcheck
 [![Build Status](https://travis-ci.org/JesusIslam/healthcheck.svg?branch=master)](https://travis-ci.org/JesusIslam/healthcheck)
+[![codecov](https://codecov.io/gh/JesusIslam/healthcheck/branch/master/graph/badge.svg)](https://codecov.io/gh/JesusIslam/healthcheck)
 [![GoDoc](https://godoc.org/github.com/JesusIslam/healthcheck?status.svg)](https://godoc.org/github.com/JesusIslam/healthcheck)
 [![Go Report Card](https://goreportcard.com/badge/github.com/JesusIslam/healthcheck)](https://goreportcard.com/report/github.com/JesusIslam/healthcheck)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJesusIslam%2Fhealthcheck.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2FJesusIslam%2Fhealthcheck?ref=badge_small)
