@@ -18,9 +18,13 @@ matrix:
 
 install:
   - if [[ "${GO111MODULE}" = "on" ]]; then go mod download; else go get -t -v ./...; fi
+  - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+  - nvm install 13.7.0
+  - npm install -g snyk
 
 script:
   - go test -v -covermode=atomic -coverprofile=coverage.out
+  - snyk test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
